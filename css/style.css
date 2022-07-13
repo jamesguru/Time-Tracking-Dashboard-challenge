@@ -347,28 +347,44 @@ body {
 }
 
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1024px){
+
+.main-section {
+  display: grid;
 
 
+  grid-template-columns: repeat(1,350px);
 
+    grid-template-rows: repeat( 1, 350px);
 
-    .main-section{
-
-
-    display: grid;
-
-
-   grid-column: 1;
-
-   grid-row: 7;
    
+  grid-template-areas: 
   
+  "one"
+
+  "one"
+
+  "two"
+
+  "three"
+
+  "four"
+
+  "five"
+
+  "six"
+
+  "seven"
+  
+  
+  ;
  
-  margin: 380px;
+  margin: 150px;
+}
+ 
 
 
 
-    }
 }
 
 
